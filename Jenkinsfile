@@ -20,7 +20,7 @@ node {
                         sh "cat deployment.yaml"
                         sh "git add ."
                         sh "git commit -m 'Done by Jenkins Job changemanifest: ${env.BUILD_NUMBER}'"
-                        sh "git push https://${GIT_USERNAME}:${encodedPassword}@github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
+                        sh "git push https://${GIT_USERNAME}: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@github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
 //                         sh "git push https://github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
       }
     }
