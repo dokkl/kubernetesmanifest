@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-        - image: dokkl/hello-jib:latest
+        - image: dokkl/hello-jib:14
           name: flaskdemo
           resources: {}
 status: {}
